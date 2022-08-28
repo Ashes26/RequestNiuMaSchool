@@ -1,0 +1,247 @@
+<html data-fbscriptallow="true" data-cbscriptallow="true" data-wgscriptallow="true" data-acxscriptallow="true"><head>
+    <link rel="icon" href="/Story/logo.png">
+    <meta name="google" content="notranslate">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>访问被拒</title>
+
+
+
+<script type="text/javascript">
+if (top.location != self.location)top.location=self.location;
+</script>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link type="text/css" rel="stylesheet" href="/Story/assert/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/Story/assert/css/prism.css">
+    <link type="text/css" rel="stylesheet" href="/Story/assert/css/zoom.css">
+    <link type="text/css" rel="stylesheet" href="/Story/assert/css/main.css">
+        <!--[if lt IE 9]>
+    <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-23'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-23'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-23'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _zKNa = '86e'//'X'
++'7'//'NR'
++'74'//'LZM'
++//'Nb'
+'Nb'+'1f'//'h'
++'c21'//'N2'
++/* 'dC'//'dC' */''+//'82'
+'a51'+//'UlT'
+'UlT'+//'r'
+'d'+'28a'//'xb'
++//'BF'
+'c'+'4f6'//'AG'
++'844'//'QO'
++//'V'
+'06b'+''///*'jR'*/'jR'
++//'OOk'
+'c'+'e9e'//'z1n'
+, _6TGUt9X = [[6,8],[14,17]];
+    
+    for (var i = 0; i < _6TGUt9X.length; i ++) {
+        _zKNa = _zKNa.substring(0, _6TGUt9X[i][0]) + _zKNa.substring(_6TGUt9X[i][1]);
+    }
+
+    return _zKNa;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><style id="YnRuLWNvZGUtY29weQ">
+                .btn-code-copy {
+                    position: absolute;
+                    line-height: .6em;
+                    top: .2em;
+                    right: .2em;
+                    color: rgb(87, 87, 87);
+                }
+                .btn-code-copy:hover {
+                    color: rgb(145, 145, 145);
+                    cursor: pointer;
+                }
+                </style></head>
+
+<body class="mdui-loaded">
+    <!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+
+    <header id="header" class="clearfix">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="logo">
+                    <div class="header-logo">
+                        <!-- 标题开始 -->
+                        
+                        <!-- 标题结束 -->
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        
+    </header>
+
+    <div id="body" class="clearfix">
+<div class="container-fluid">
+    <div class="row">
+        <div id="main" class="col-12 clearfix" role="main">
+            <article class="posti" itemscope="" itemtype="http://schema.org/BlogPosting">
+                <h1 class="post-title" itemprop="name headline">想要申请 牛马学校.com ?</h1>
+                <div class="post-meta">
+                    <p>一个垃圾学校就应该有这样的域名</p>
+                </div>
+
+                <div class="post-content" itemprop="articleBody" style="user-select:none;">
+                    <h3 id="anchor-2" class="torAn">那就申请它罢！</h3><p>向<a href="mailto:admin@workspace.typeboom.com">admin@workspace.typeboom.com</a>发送电子邮件并如实填写如下信息</p>
+
+
+                <p>学校名称？<br>
+想要申请的前缀是什么？(中英文均可）<br>
+为什么这所学校很垃圾？<br>
+你将如何使用这个域名？<br>
+你是否已经从那个学校毕业？<br>
+你的联系方式？</p><p>我们将在收到你发送的邮件后<b>一周</b>内给出回复<br>
+如果你是学校官方，也可发送邮件进行删除(需要证明)
+</p>
+
+</div>
+
+                
+           </article>
+        </div>
+        
+    </div>
+</div>
+
+</div>
+<!-- end #body -->
+
+
+
+<footer id="footer" role="contentinfo">
+  
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 15px;">
+            <div class="col-12"><a href="/DomainList.html">域名列表</a>
+                            </div>
+                <div class="col-12" style="font-size:70%;top: -5px;">牛马学校牛马多，牛牛马马坐一桌</div>
+        </div>
+    </div>
+</footer>
+<script src="/Story/assert/js/jquery.min.js"></script>
+<script src="/Story/assert/js/prism.js"></script>
+<script src="/Story/assert/js/zoom-vanilla.min.js"></script>
+
+
+</body></html>
